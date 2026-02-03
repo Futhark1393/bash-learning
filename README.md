@@ -1,41 +1,56 @@
 # Bash Learning Journey 🚀
 
-Welcome to my Bash scripting repository! Here, I document my progress and experiments while learning Bash scripting, following the W3Schools curriculum.
+Welcome to my Bash scripting repository! Here, I document my progress learning Bash scripting and host my real-world automation projects.
 
-## 📂 Repository Contents
+---
 
-All source codes are located in the `codes/` directory.
+## 🛠️ Real-World Projects
+
+Scripts designed for actual system administration and automation tasks.
+
+| Project | File | Description |
+| :--- | :--- | :--- |
+| **SysAdmin Toolbox** | [`toolbox.sh`](./projects/sysadmin-toolbox/toolbox.sh) | A CLI tool for system monitoring, disk usage analysis, and automated backups. Includes menu navigation and colored output. |
+
+---
+
+## 📚 Learning Curve (W3Schools)
+
+My step-by-step progress following the W3Schools Bash curriculum. All source codes are in the `codes/` directory.
 
 | File | Topic | Description |
 | :--- | :--- | :--- |
 | [`01-hello-world.sh`](./codes/01-hello-world.sh) | **Hello World** | Basic script demonstrating the `echo` command. |
-| [`02-variables.sh`](./codes/02-variables.sh) | **Variables** | Defining and accessing variables (`name`, `os`, etc.). |
-| [`03-parameters.sh`](./codes/03-parameters.sh) | **Parameters** | Handling command-line arguments (`$1`, `$2`, `$#`). |
-| [`04-arrays.sh`](./codes/04-arrays.sh) | **Arrays** | Creating arrays, accessing elements, and counting items. |
-| [`05-conditional.sh`](./codes/05-conditional.sh) | **If/Else** | Decision making with `if`, `elif`, and comparison operators (`-gt`, `-eq`). |
-| [`06-loops.sh`](./codes/06-loops.sh) | **Loops** | Iterating with `for` loops (list & C-style) and `while` loops. |
-| [`07-tests.sh`](./codes/07-tests.sh) | **File & Logic Tests** | Using `-e` to check file existence and `-le` for numeric comparison. |
-| [`08-functions.sh`](./codes/08-functions.sh) | **Functions** | Creating modular code blocks, using `local` variables and arguments. |
-| [`09-mini-project.sh`](./codes/09-mini-project.sh) | **Mini Project** | A Log Analyzer tool combining variables, loops, arrays, and functions. |
-| [`10-string-manipulation.sh`](./codes/10-string-manipulation.sh) | **String Ops** | Length, slicing, replacement, and case conversion. |
-| [`11-user-input.sh`](./codes/11-user-input.sh) | **User Input** | Reading input with prompts (`-p`), hiding text (`-s`), and timeouts (`-t`). |
-| [`12-arithmetic.sh`](./codes/12-arithmetic.sh) | **Math Ops** | Integer arithmetic `(( ))`, modulus, and incrementing. |
-| [`13-case.sh`](./codes/13-case.sh) | **Case Statement** | Handling multiple choices cleanly (Switch-Case logic). |
-| [`14-floating-point.sh`](./codes/14-floating-point.sh) | **Decimals (bc)** | Handling floating-point math using the `bc` command. |
+| [`02-variables.sh`](./codes/02-variables.sh) | **Variables** | Defining and accessing variables. |
+| [`03-parameters.sh`](./codes/03-parameters.sh) | **Parameters** | Handling command-line arguments. |
+| [`04-arrays.sh`](./codes/04-arrays.sh) | **Arrays** | Creating arrays and accessing elements. |
+| [`05-conditional.sh`](./codes/05-conditional.sh) | **If/Else** | Decision making with comparison operators. |
+| [`06-loops.sh`](./codes/06-loops.sh) | **Loops** | Iterating with `for` and `while` loops. |
+| [`07-functions.sh`](./codes/07-functions.sh) | **Functions** | Modular code blocks with `local` variables. |
+| [`08-mini-project.sh`](./codes/08-mini-project.sh) | **Log Analyzer** | Mini-tool combining loops, arrays, and grep. |
+| [`09-string-manipulation.sh`](./codes/09-string-manipulation.sh) | **String Ops** | Slicing, replacement, and case conversion. |
+| [`10-user-input.sh`](./codes/10-user-input.sh) | **User Input** | Interactive scripts with `read`. |
+| [`11-arithmetic.sh`](./codes/11-arithmetic.sh) | **Math Ops** | Integer arithmetic `(( ))`. |
+| [`12-case.sh`](./codes/12-case.sh) | **Case Statement** | Switch-Case logic for menus. |
+| [`13-floating-point.sh`](./codes/13-floating-point.sh) | **Decimals (bc)** | Floating-point math using `bc`. |
+
+---
+
+## 🧪 Experiments & Tests
+
+Experimental scripts and test cases.
+
+| File | Description |
+| :--- | :--- |
+| [`tests.sh`](./tests/tests.sh) | **File & Logic Tests**: Checking file existence (`-e`) and numeric comparisons. |
 
 ## ⚙️ Usage
 
-To run any script, ensure it has execution permissions:
+To run the main project:
 
 ```bash
-# Navigate to the codes directory
-cd codes
-
-# Grant execution permission
-chmod +x <filename>.sh
-
-# Run the script
-./<filename>.sh
+cd projects/sysadmin-toolbox
+./toolbox.sh
 ```
 
 💻 Environment
