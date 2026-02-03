@@ -18,6 +18,7 @@ All source codes are located in the `codes/` directory.
 | [`08-functions.sh`](./codes/08-functions.sh) | **Functions** | Creating modular code blocks, using `local` variables and arguments. |
 | [`09-mini-project.sh`](./codes/09-mini-project.sh) | **Mini Project** | A Log Analyzer tool combining variables, loops, arrays, and functions. |
 | [`10-string-manipulation.sh`](./codes/10-string-manipulation.sh) | **String Ops** | Length, slicing, replacement, and case conversion. |
+| [`11-user-input.sh`](./codes/11-user-input.sh) | **User Input** | Reading input with prompts (`-p`), hiding text (`-s`), and timeouts (`-t`). |
 
 ## ⚙️ Usage
 
