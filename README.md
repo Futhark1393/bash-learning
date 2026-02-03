@@ -19,6 +19,9 @@ All source codes are located in the `codes/` directory.
 | [`09-mini-project.sh`](./codes/09-mini-project.sh) | **Mini Project** | A Log Analyzer tool combining variables, loops, arrays, and functions. |
 | [`10-string-manipulation.sh`](./codes/10-string-manipulation.sh) | **String Ops** | Length, slicing, replacement, and case conversion. |
 | [`11-user-input.sh`](./codes/11-user-input.sh) | **User Input** | Reading input with prompts (`-p`), hiding text (`-s`), and timeouts (`-t`). |
+| [`12-arithmetic.sh`](./codes/12-arithmetic.sh) | **Math Ops** | Integer arithmetic `(( ))`, modulus, and incrementing. |
+| [`13-case.sh`](./codes/13-case.sh) | **Case Statement** | Handling multiple choices cleanly (Switch-Case logic). |
+| [`14-floating-point.sh`](./codes/14-floating-point.sh) | **Decimals (bc)** | Handling floating-point math using the `bc` command. |
 
 ## ⚙️ Usage
 
