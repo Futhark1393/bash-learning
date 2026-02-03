@@ -16,6 +16,7 @@ All source codes are located in the `codes/` directory.
 | [`06-loops.sh`](./codes/06-loops.sh) | **Loops** | Iterating with `for` loops (list & C-style) and `while` loops. |
 | [`07-tests.sh`](./codes/07-tests.sh) | **File & Logic Tests** | Using `-e` to check file existence and `-le` for numeric comparison. |
 | [`08-functions.sh`](./codes/08-functions.sh) | **Functions** | Creating modular code blocks, using `local` variables and arguments. |
+| [`09-mini-project.sh`](./codes/09-mini-project.sh) | **Mini Project** | A Log Analyzer tool combining variables, loops, arrays, and functions. |
 
 ## ⚙️ Usage
 
