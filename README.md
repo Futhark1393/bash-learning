@@ -15,6 +15,7 @@ All source codes are located in the `codes/` directory.
 | [`05-conditional.sh`](./codes/05-conditional.sh) | **If/Else** | Decision making with `if`, `elif`, and comparison operators (`-gt`, `-eq`). |
 | [`06-loops.sh`](./codes/06-loops.sh) | **Loops** | Iterating with `for` loops (list & C-style) and `while` loops. |
 | [`07-tests.sh`](./codes/07-tests.sh) | **File & Logic Tests** | Using `-e` to check file existence and `-le` for numeric comparison. |
+| [`08-functions.sh`](./codes/08-functions.sh) | **Functions** | Creating modular code blocks, using `local` variables and arguments. |
 
 ## ⚙️ Usage
 
