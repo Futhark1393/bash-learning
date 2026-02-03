@@ -13,6 +13,7 @@ All source codes are located in the `codes/` directory.
 | [`03-parameters.sh`](./codes/03-parameters.sh) | **Parameters** | Handling command-line arguments (`$1`, `$2`, `$#`). |
 | [`04-arrays.sh`](./codes/04-arrays.sh) | **Arrays** | Creating arrays, accessing elements, and counting items. |
 | [`05-conditional.sh`](./codes/05-conditional.sh) | **If/Else** | Decision making with `if`, `elif`, and comparison operators (`-gt`, `-eq`). |
+| [`06-loops.sh`](./codes/06-loops.sh) | **Loops** | Iterating with `for` loops (list & C-style) and `while` loops. |
 
 ## ⚙️ Usage
 
