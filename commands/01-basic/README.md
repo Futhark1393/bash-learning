@@ -27,7 +27,7 @@ cd ..           # Go up one level
 pwd             # Where am I?
 ```
 
-File Operations
+### File Operations
 
 ```bash
 mkdir -p myproject/src      # Create a folder inside a folder
