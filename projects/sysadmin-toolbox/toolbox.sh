@@ -89,6 +89,30 @@ backup_files() {
     pause
 }
 
+# Function 4: Battery Health Monitor
+# Uses: upower, grep, awk
+check_battery_status() {
+    echo -e "${YELLOW}Checking Battery Status...${NC}"
+    
+    # Find the battery path (usually /org/freedesktop/UPower/devices/battery_BAT0)
+    # We take the first BAT result we find.
+    BAT_PATH=$(upower -e | grep 'BAT' | head -n 1)
+
+    if [ -z "$BAT_PATH" ]; then
+        echo -e "${RED}Error: No battery detected.${NC}"
+    else
+        # Extract specific info using upower -i
+        # We grab state, percentage, and capacity (which is health)
+        echo -e "${BLUE}--- Battery Details ---${NC}"
+        
+        upower -i "$BAT_PATH" | grep -E "state|percentage|capacity|time to empty|time to full"
+        
+        echo -e "${BLUE}-----------------------${NC}"
+        echo "Note: 'capacity' shows your battery health (100% is new)."
+    fi
+    pause
+}
+
 # --- Main Logic (Menu System) ---
 # Uses: While Loop, Case Statement, User Input
 
@@ -100,11 +124,11 @@ while true; do
     echo "1. Show System Information"
     echo "2. Check Disk Usage"
     echo "3. Backup Project Files"
-    echo "4. Exit"
+    echo "4. Check Battery Status"   
+    echo "5. Exit"                   
     echo -e "${GREEN}================================${NC}"
     
-    read -p "Enter your choice [1-4]: " choice
-
+    read -p "Enter your choice [1-5]: " choice
     case $choice in
         1)
             show_sys_info
@@ -115,7 +139,10 @@ while true; do
         3)
             backup_files
             ;;
-        4)
+        4)                       
+            check_battery_status
+            ;;
+        5)                      
             echo "Exiting... Goodbye, $USER!"
             exit 0
             ;;
