@@ -10,7 +10,7 @@ Scripts designed for actual system administration, automation tasks, and experim
 
 | Directory | Project / File | Description |
 | :--- | :--- | :--- |
-| **SysAdmin** | [`toolbox.sh`](./projects/sysadmin-toolbox/toolbox.sh) | **System Admin Toolbox**: A CLI tool for monitoring, disk usage, and backups (Includes Battery Health). |
+| **SysAdmin** | [**🔗 View Repository**](https://github.com/Futhark1393/sysadmin-toolbox) | **System Admin Toolbox**: *Moved to its own repo!* A CLI tool for monitoring, disk usage, and backups. |
 | **Tests** | [`tests.sh`](./projects/tests/tests.sh) | **Experiments**: File existence (`-e`) checks and numeric comparison logic tests. |
 
 ---
