@@ -4,13 +4,14 @@ Welcome to my Bash scripting repository! Here, I document my progress learning B
 
 ---
 
-## 🛠️ Real-World Projects
+## 🛠️ Real-World Projects & Experiments
 
-Scripts designed for actual system administration and automation tasks.
+Scripts designed for actual system administration, automation tasks, and experimental tests.
 
-| Project | File | Description |
+| Directory | Project / File | Description |
 | :--- | :--- | :--- |
-| **SysAdmin Toolbox** | [`toolbox.sh`](./projects/sysadmin-toolbox/toolbox.sh) | A CLI tool for system monitoring, disk usage analysis, and automated backups. Includes menu navigation, colored output, and battery health check. |
+| **SysAdmin** | [`toolbox.sh`](./projects/sysadmin-toolbox/toolbox.sh) | **System Admin Toolbox**: A CLI tool for monitoring, disk usage, and backups (Includes Battery Health). |
+| **Tests** | [`tests.sh`](./projects/tests/tests.sh) | **Experiments**: File existence (`-e`) checks and numeric comparison logic tests. |
 
 ---
 
@@ -33,16 +34,6 @@ My step-by-step progress following the W3Schools Bash curriculum. All source cod
 | [`11-arithmetic.sh`](./lessons/11-arithmetic.sh) | **Math Ops** | Integer arithmetic `(( ))`. |
 | [`12-case.sh`](./lessons/12-case.sh) | **Case Statement** | Switch-Case logic for menus. |
 | [`13-floating-point.sh`](./lessons/13-floating-point.sh) | **Decimals (bc)** | Floating-point math using `bc`. |
-
----
-
-## 🧪 Experiments & Tests
-
-Experimental scripts and test cases.
-
-| File | Description |
-| :--- | :--- |
-| [`tests.sh`](./tests/tests.sh) | **File & Logic Tests**: Checking file existence (`-e`) and numeric comparisons. |
 
 ## ⚙️ Usage
 
